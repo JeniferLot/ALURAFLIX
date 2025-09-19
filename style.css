@@ -1,11 +1,11 @@
 /*variaveis*/
-/*:root {
+:root {
     --preto: #000;
     --branco: #fff;
     --lilas-claro: #eb76db;
     --azul-médio: #2f4dd1;
     --amarelo:#cfe80d;
-}*/
+}
 /*corpo da página*/
 body {
     color: var(--branco);/*cor da fonte*/
@@ -28,7 +28,7 @@ header {
 }
 
 .chamada {
-    background: /*rgb(184, 156, 213);*/
+    background: rgb(184, 156, 213);
      padding-bottom: 80px;/*espaçamento inferior*/
     padding-top: 80px;/*espaçamento superior*/
     display: flex;/*alterar a disposição*/
@@ -51,7 +51,6 @@ img {
     width: 300px;
     height: 200px;
 }
-
 
 .recomendacoes {
     background-color: var(--lilas-claro);
