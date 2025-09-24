@@ -1,10 +1,10 @@
 /*variaveis*/
 :root {
-    --preto: #fff;
-    --branco: #000;
+    --branco: #fff;
+    --preto: #000;
     --lilas-claro: #ad76eb;
     --azul-médio: #2fccd1;
-    --amarelo:#f09917e3;
+    --azul:#070857e3;
 }
 /*corpo da página*/
 body {
@@ -18,11 +18,11 @@ header {
     border-color: var(--branco);/*cor da borda*/
     padding: 20px;/*espaçamento interno*/
     font-size: 32px;/*tamanho da fonte*/
-    color: var(--amarelo);/*cor da fonte*/
+    color: var(--azul);/*cor da fonte*/
 }
 
 .chamada-texto {
-    background-color: var(--amarelo);
+    background-color: var(--azul);
     color: var(--preto);
     margin-right: 20px;/*margem a direita*/
 }
@@ -58,7 +58,7 @@ img {
     margin-right: 30px;/*margem a direita*/
 }
 .outras-recomendacoes {
-    background-color: var(--amarelo);
+    background-color: var(--azul);
     display: flex;
     overflow-x: auto;
     gap: 20px;
